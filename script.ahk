@@ -4,7 +4,7 @@ unmuteAppID := "Microphone" ; mic
 global gameMuted := false
 
 ; Set up timer to check process every 5 seconds
-SetTimer, CheckProcess, 9000
+SetTimer, CheckProcess, 5000
 
 F8::
     if (!gameMuted) {
